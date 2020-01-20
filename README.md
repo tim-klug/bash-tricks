@@ -15,3 +15,4 @@
 | **Ctrl + z**              | send task to background                            |
 | **Ctrl + X + Ctrl + E**   | open command in vi                                 |
 | `fc`                      | open last command in vi                            |
+| `du -sk * | sort -n`      | show the total folder size for subfolders          |
