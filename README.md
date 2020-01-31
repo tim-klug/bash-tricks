@@ -16,3 +16,10 @@
 | **Ctrl + X + Ctrl + E**   | open command in vi                                 |
 | `fc`                      | open last command in vi                            |
 | `du -sk * | sort -n`      | show the total folder size for subfolders          |
+
+## Get a Servers Fingerprint
+
+```bash
+$> ssh-keygen -lf <(ssh-keyscan hostname 2>/dev/null)
+```
+
