@@ -16,6 +16,9 @@
 | **Ctrl + X + Ctrl + E**   | open command in vi                                 |
 | `fc`                      | open last command in vi                            |
 | `du -sk * | sort -n`      | show the total folder size for subfolders          |
+| `cat /etc/*release`       | display distro information                         |
+| `uname -r`                | get kernel version                                 |
+| `uname -a`                | get all kernel infos                               |
 
 ## Get a Servers Fingerprint
 
